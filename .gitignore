@@ -1,0 +1,13 @@
+# Maven 的打包输出工具,会自动生成,无需上传
+/target
+
+# IDEA 开发工具的项目配置文件,会自动生成,无需上传
+.idea
+/*.iml
+
+# 数据库配置文件,在项目根目录的configs文件夹下有此文件
+#/src/main/resources/hibernate/db.properties
+#/src/main/resources/redis/db.properties
+
+# Mac 系统的文件管理文件
+*.DS_Store
